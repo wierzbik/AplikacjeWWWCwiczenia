@@ -1,0 +1,70 @@
+/* reset CSS */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body{
+    font-family: 'Henny Penny', cursive;
+    font-size: 100%;
+    background-image: url(../img/t01.gif);
+}
+
+#strona {
+    width: 90%;
+    margin: 30px auto 0 auto;
+    border: solid 1px slategray;
+}
+header{ height: 150px; background: palevioletred; background-image:  url(../img/kompo.jpg); }
+footer{ height: 20px; background: #e3114f; color: #ffffff; text-align: center;}
+nav { height: 3600px;width:19%;float:left; padding:0.2% 0.5% 0.2% 0.5%;background: #13b6e8; text-align: center;}
+article { height: 3600px;width:52%;float:left; padding:0.2% 1.5% 0.2% 1.5%; background: #955aec;}
+aside {height: 3600px;width:22%; float: left; padding:0.2% 1.5% 0.2%  1.5%; background:#ff611b; text-align: center;}
+.enter{clear: both}
+
+@media screen and (min-width: 1024px) {
+    aside {width:22%; float: left; padding:0.2% 1.5% 0.2%  1.5%; background: #09abdb;}
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+}
+nav ul {margin: 0px;padding: 0px;list-style-type: none;}
+nav ul a, nav ul li a:visited {
+    display:block;
+    border:2px solid #60e816;
+    text-align:center;
+    font-weight:bold;
+    text-decoration:none;
+    color:white;
+    background: #03b8ff;
+    padding:5px;
+    margin:3px;
+}
+
+.art{
+    font-size: 24px;
+}
+
+h1 {
+    font-size: 20px;
+}
+h3 {
+    font-size: 20px;
+}
+
+h4 {
+    font-size: 16px;
+}
+
+.formularz
+{
+    text-align: center;
+    font-size: 18px;
+    color: rgba(17, 17, 17, 0.97);
+    padding: 20px;
+}
