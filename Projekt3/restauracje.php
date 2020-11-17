@@ -41,8 +41,8 @@ $danie = $pdo->query($pytanie)->fetchAll();
                             <caption>Przepisy naszych użytkowników</caption>
                             <thead>
                             <tr>
-                                <th scope="col">danie</th>
-                                <th scope="col">przepis</th>
+                                <th scope="col">Danie</th>
+                                <th scope="col">Przepis</th>
                             </tr>
                             </thead>
                             <?php
